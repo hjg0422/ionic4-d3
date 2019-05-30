@@ -35,6 +35,15 @@ const routes: Routes = [
         ]
       },
       {
+        path: 'tab4',
+        children: [
+          {
+            path: '',
+            loadChildren: '../study-list/study-list.module#StudyListPageModule'
+          }
+        ]
+      },
+      {
         path: '',
         redirectTo: '/tabs/tab1',
         pathMatch: 'full'
@@ -54,4 +63,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class TabsPageRoutingModule {}
+export class TabsPageRoutingModule { }

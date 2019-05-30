@@ -1,0 +1,28 @@
+.chart div {
+    font: 10px sans-serif;
+    background-color: steelblue;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+}
+
+
+#dashboard {
+    width: 100%;
+    border: 1px solid black;
+}
+
+p {
+    text-align: center;
+}
+
+path {
+    fill: none;
+    stroke: #999;
+}
+
+circle {
+    fill: none;
+    stroke: #aaa;
+}
